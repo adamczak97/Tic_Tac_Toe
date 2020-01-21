@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tic_Tac_Toe.App.Entities
+using Tic_Tac_Toe.App.Entities;
 
 namespace Tic_Tac_Toe.App
 {
