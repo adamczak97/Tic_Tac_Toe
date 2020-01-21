@@ -18,16 +18,18 @@ namespace Tic_Tac_Toe
         {
             InitializeComponent();
         }
-
+        // help
         private void pomocToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("There is no help here");
+            MessageBox.Show("Gracze obejmują pola na przemian dążąc do objęcia trzech pól w jednej linii," 
+                + " przy jednoczesnym uniemożliwieniu tego samego przeciwnikowi.");
         }
-
+        //end
         private void zakończToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
 
         private void b_click(object sender, EventArgs e)
         {
@@ -35,6 +37,7 @@ namespace Tic_Tac_Toe
             Button b = (Button)sender;
             int newSize = 75;
             b.Font = new Font(Button.DefaultFont.FontFamily, newSize);
+
             if (turn)
             {
                 b.Text = "X";
@@ -79,7 +82,7 @@ namespace Tic_Tac_Toe
             else if ((A3.Text == B2.Text) && (B2.Text == C1.Text) && (!A3.Enabled))
                 winner = true;
 
-
+            // winning
             if (winner)
             {
                 disableButtons();
@@ -102,7 +105,6 @@ namespace Tic_Tac_Toe
         {
             try
             {
-
                 foreach (Control c in Controls)
                 {
                     Button b = (Button)c;
@@ -110,12 +112,41 @@ namespace Tic_Tac_Toe
                 }
             }
             catch { }
+        }
+
+        //new game
+        private void nowaGraToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            A1.Enabled = true;
+            A2.Enabled = true;
+            A3.Enabled = true;
+            B1.Enabled = true;
+            B2.Enabled = true;
+            B3.Enabled = true;
+            C1.Enabled = true;
+            C2.Enabled = true;
+            C3.Enabled = true;
+
+            turn_count = 0;
+            foreach (var item in this.Controls)
+            {
+                if(item.GetType().Equals(typeof(Button)))
+                {
+                    Button A1 = item as Button;
+                    A1.Text = string.Empty;
+                }
+            }
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
 
-        private void nowaGraToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void wynikiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+
         }
     }
 }

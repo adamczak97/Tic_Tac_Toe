@@ -94,6 +94,7 @@
             this.wynikiToolStripMenuItem.Name = "wynikiToolStripMenuItem";
             this.wynikiToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.wynikiToolStripMenuItem.Text = "Wyniki";
+            this.wynikiToolStripMenuItem.Click += new System.EventHandler(this.wynikiToolStripMenuItem_Click);
             // 
             // A1
             // 
@@ -189,7 +190,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Tic_Tac_Toe.Properties.Resources._12121;
             this.ClientSize = new System.Drawing.Size(545, 558);
             this.Controls.Add(this.C3);
             this.Controls.Add(this.B2);
@@ -205,6 +205,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic Tac Toe";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
