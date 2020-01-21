@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tic_Tac_Toe.App.Entities
 
-namespace Tic_Tac_Toe
+namespace Tic_Tac_Toe.App
 {
     public class Repository
     {

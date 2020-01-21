@@ -1,4 +1,4 @@
-﻿using Tic_Tac_Toe.App.Entities;
+﻿using Tic_Tac_Toe.App.Entitites;
 using Microsoft.EntityFrameworkCore;
 
 namespace Tic_Tac_Toe.App.Context
@@ -17,10 +17,8 @@ namespace Tic_Tac_Toe.App.Context
 
             modelBuilder.Entity<ScoreEntity>()
                 .ToTable("Scores");
-            modelBuilder.Entity<ScoreEntity>()
-                .HasKey(pk => pk.Id);
-        }
 
-        public DbSet<ScoreEntity> Scores { get; set; }
+
+        }
     }
 }
