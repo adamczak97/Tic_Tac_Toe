@@ -35,15 +35,15 @@
             this.zakończToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pomocToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wynikiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.A1 = new System.Windows.Forms.Button();
-            this.B1 = new System.Windows.Forms.Button();
-            this.C1 = new System.Windows.Forms.Button();
-            this.A2 = new System.Windows.Forms.Button();
-            this.A3 = new System.Windows.Forms.Button();
-            this.C2 = new System.Windows.Forms.Button();
-            this.B3 = new System.Windows.Forms.Button();
-            this.B2 = new System.Windows.Forms.Button();
             this.C3 = new System.Windows.Forms.Button();
+            this.B2 = new System.Windows.Forms.Button();
+            this.B3 = new System.Windows.Forms.Button();
+            this.C2 = new System.Windows.Forms.Button();
+            this.A3 = new System.Windows.Forms.Button();
+            this.A2 = new System.Windows.Forms.Button();
+            this.C1 = new System.Windows.Forms.Button();
+            this.B1 = new System.Windows.Forms.Button();
+            this.A1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,75 +96,15 @@
             this.wynikiToolStripMenuItem.Text = "Wyniki";
             this.wynikiToolStripMenuItem.Click += new System.EventHandler(this.wynikiToolStripMenuItem_Click);
             // 
-            // A1
+            // C3
             // 
-            this.A1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("A1.BackgroundImage")));
-            this.A1.Location = new System.Drawing.Point(12, 27);
-            this.A1.Name = "A1";
-            this.A1.Size = new System.Drawing.Size(170, 170);
-            this.A1.TabIndex = 1;
-            this.A1.UseVisualStyleBackColor = true;
-            this.A1.Click += new System.EventHandler(this.b_click);
-            // 
-            // B1
-            // 
-            this.B1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("B1.BackgroundImage")));
-            this.B1.Location = new System.Drawing.Point(12, 203);
-            this.B1.Name = "B1";
-            this.B1.Size = new System.Drawing.Size(170, 170);
-            this.B1.TabIndex = 2;
-            this.B1.UseVisualStyleBackColor = true;
-            this.B1.Click += new System.EventHandler(this.b_click);
-            // 
-            // C1
-            // 
-            this.C1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("C1.BackgroundImage")));
-            this.C1.Location = new System.Drawing.Point(12, 379);
-            this.C1.Name = "C1";
-            this.C1.Size = new System.Drawing.Size(170, 170);
-            this.C1.TabIndex = 3;
-            this.C1.UseVisualStyleBackColor = true;
-            this.C1.Click += new System.EventHandler(this.b_click);
-            // 
-            // A2
-            // 
-            this.A2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("A2.BackgroundImage")));
-            this.A2.Location = new System.Drawing.Point(188, 27);
-            this.A2.Name = "A2";
-            this.A2.Size = new System.Drawing.Size(170, 170);
-            this.A2.TabIndex = 4;
-            this.A2.UseVisualStyleBackColor = true;
-            this.A2.Click += new System.EventHandler(this.b_click);
-            // 
-            // A3
-            // 
-            this.A3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("A3.BackgroundImage")));
-            this.A3.Location = new System.Drawing.Point(364, 27);
-            this.A3.Name = "A3";
-            this.A3.Size = new System.Drawing.Size(170, 170);
-            this.A3.TabIndex = 5;
-            this.A3.UseVisualStyleBackColor = true;
-            this.A3.Click += new System.EventHandler(this.b_click);
-            // 
-            // C2
-            // 
-            this.C2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("C2.BackgroundImage")));
-            this.C2.Location = new System.Drawing.Point(188, 379);
-            this.C2.Name = "C2";
-            this.C2.Size = new System.Drawing.Size(170, 170);
-            this.C2.TabIndex = 6;
-            this.C2.UseVisualStyleBackColor = true;
-            this.C2.Click += new System.EventHandler(this.b_click);
-            // 
-            // B3
-            // 
-            this.B3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("B3.BackgroundImage")));
-            this.B3.Location = new System.Drawing.Point(364, 203);
-            this.B3.Name = "B3";
-            this.B3.Size = new System.Drawing.Size(170, 170);
-            this.B3.TabIndex = 7;
-            this.B3.UseVisualStyleBackColor = true;
-            this.B3.Click += new System.EventHandler(this.b_click);
+            this.C3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("C3.BackgroundImage")));
+            this.C3.Location = new System.Drawing.Point(364, 379);
+            this.C3.Name = "C3";
+            this.C3.Size = new System.Drawing.Size(170, 170);
+            this.C3.TabIndex = 9;
+            this.C3.UseVisualStyleBackColor = true;
+            this.C3.Click += new System.EventHandler(this.b_click);
             // 
             // B2
             // 
@@ -176,15 +116,75 @@
             this.B2.UseVisualStyleBackColor = true;
             this.B2.Click += new System.EventHandler(this.b_click);
             // 
-            // C3
+            // B3
             // 
-            this.C3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("C3.BackgroundImage")));
-            this.C3.Location = new System.Drawing.Point(364, 379);
-            this.C3.Name = "C3";
-            this.C3.Size = new System.Drawing.Size(170, 170);
-            this.C3.TabIndex = 9;
-            this.C3.UseVisualStyleBackColor = true;
-            this.C3.Click += new System.EventHandler(this.b_click);
+            this.B3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("B3.BackgroundImage")));
+            this.B3.Location = new System.Drawing.Point(364, 203);
+            this.B3.Name = "B3";
+            this.B3.Size = new System.Drawing.Size(170, 170);
+            this.B3.TabIndex = 7;
+            this.B3.UseVisualStyleBackColor = true;
+            this.B3.Click += new System.EventHandler(this.b_click);
+            // 
+            // C2
+            // 
+            this.C2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("C2.BackgroundImage")));
+            this.C2.Location = new System.Drawing.Point(188, 379);
+            this.C2.Name = "C2";
+            this.C2.Size = new System.Drawing.Size(170, 170);
+            this.C2.TabIndex = 6;
+            this.C2.UseVisualStyleBackColor = true;
+            this.C2.Click += new System.EventHandler(this.b_click);
+            // 
+            // A3
+            // 
+            this.A3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("A3.BackgroundImage")));
+            this.A3.Location = new System.Drawing.Point(364, 27);
+            this.A3.Name = "A3";
+            this.A3.Size = new System.Drawing.Size(170, 170);
+            this.A3.TabIndex = 5;
+            this.A3.UseVisualStyleBackColor = true;
+            this.A3.Click += new System.EventHandler(this.b_click);
+            // 
+            // A2
+            // 
+            this.A2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("A2.BackgroundImage")));
+            this.A2.Location = new System.Drawing.Point(188, 27);
+            this.A2.Name = "A2";
+            this.A2.Size = new System.Drawing.Size(170, 170);
+            this.A2.TabIndex = 4;
+            this.A2.UseVisualStyleBackColor = true;
+            this.A2.Click += new System.EventHandler(this.b_click);
+            // 
+            // C1
+            // 
+            this.C1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("C1.BackgroundImage")));
+            this.C1.Location = new System.Drawing.Point(12, 379);
+            this.C1.Name = "C1";
+            this.C1.Size = new System.Drawing.Size(170, 170);
+            this.C1.TabIndex = 3;
+            this.C1.UseVisualStyleBackColor = true;
+            this.C1.Click += new System.EventHandler(this.b_click);
+            // 
+            // B1
+            // 
+            this.B1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("B1.BackgroundImage")));
+            this.B1.Location = new System.Drawing.Point(12, 203);
+            this.B1.Name = "B1";
+            this.B1.Size = new System.Drawing.Size(170, 170);
+            this.B1.TabIndex = 2;
+            this.B1.UseVisualStyleBackColor = true;
+            this.B1.Click += new System.EventHandler(this.b_click);
+            // 
+            // A1
+            // 
+            this.A1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("A1.BackgroundImage")));
+            this.A1.Location = new System.Drawing.Point(12, 27);
+            this.A1.Name = "A1";
+            this.A1.Size = new System.Drawing.Size(170, 170);
+            this.A1.TabIndex = 1;
+            this.A1.UseVisualStyleBackColor = true;
+            this.A1.Click += new System.EventHandler(this.b_click);
             // 
             // Form1
             // 

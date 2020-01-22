@@ -7,6 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SQLitePCL;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Data.Sqlite;
+using System.Data.SQLite;
 
 namespace Tic_Tac_Toe
 {
@@ -18,6 +23,7 @@ namespace Tic_Tac_Toe
         {
             InitializeComponent();
         }
+       
         // help
         private void pomocToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -144,10 +150,13 @@ namespace Tic_Tac_Toe
 
         }
 
-        private void wynikiToolStripMenuItem_Click(object sender, EventArgs e)
+        public void wynikiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Window2 w2 = new Window2();
+            w2.ShowDialog();
         }
+
+    
     }
 }
 
