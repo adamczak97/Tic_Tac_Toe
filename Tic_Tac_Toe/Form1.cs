@@ -12,18 +12,27 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Data.Sqlite;
 using System.Data.SQLite;
+using MySql.Data.MySqlClient;
+using System.IO;
+
+
+
 
 namespace Tic_Tac_Toe
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Window2
     {
         bool turn = true;
         int turn_count = 0;
+
         public Form1()
         {
             InitializeComponent();
         }
        
+       
+
+
         // help
         private void pomocToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -156,8 +165,9 @@ namespace Tic_Tac_Toe
             w2.ShowDialog();
         }
 
-    
+        
     }
+
 }
 
 
